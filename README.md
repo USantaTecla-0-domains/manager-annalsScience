@@ -6,8 +6,8 @@ Universo Santa Tecla
 
 * [domainModel](#domainModel)     
 * [versions](#versions)
-    * [0.0.publicationLanguage](./docs/0.0.publicationLanguage.md)
-    * [0.0.graphics](./docs/0.0.programmingLanguages.md)
+    * [0.0.publicationLanguages](./docs/0.0.publicationLanguages.md)
+    * [0.0.programmingLanguages](./docs/0.0.programmingLanguages.md)
 
 ## domainModel  
 
