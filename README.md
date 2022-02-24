@@ -135,7 +135,7 @@ Universo Santa Tecla
 * Incluye: **__readIndex__**
 
 
-===== Actor _wirter_
+##### Actor _wirter_
 
 - **__createPerson__**
  
