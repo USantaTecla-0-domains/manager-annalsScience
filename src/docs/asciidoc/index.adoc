@@ -1,4 +1,4 @@
-= Anales de la Ciencia
+= 
 Santa Tecla <parqueNaturalSantaTecla@gmail.com>
 :toc-title: Índice
 :toc: left
@@ -13,48 +13,11 @@ Santa Tecla <parqueNaturalSantaTecla@gmail.com>
 |===
 
 a|
-- A lo largo de la historia de la ciencia han surgido grandes personajes (filosofos, físicos, matemáticos, ... informáticos). Estas personas, bien por libre de forma autónoma o bajo el auspicio de alguna entidad (corte, mecenas, empresa, universidad, ...) han aportado grandes productos a la ciencia (teorias, leyes, herramientas, ..., software).
-* Por tanto, existe una relación entre la entidades asociadas a las personas que las integran y relaciones entre las personas y/o entidades asociadas a los productos que los crearon. 
-
-- Para todos los elementos interesan los siguientes campos:
-* Nombre
-* Fecha de nacimiento, creación, ...
-* Fecha de defunción, utilidad, ...
-* Imagen, retrato, logo, ..., url a la imagen
-* Wiki, url al elemento
-* Para los Productos interesa:
-** Personas que han participado en su desarrollo
-** Entidades que han participado en su desarrollo
-* Para las Entidades intersa:
-** Personas que han participado en su desarrollo
 
 a|
 [plantuml, draughtsModeloDominio, svg]
 ....
-class Person {
-+ name: String
-+ birth: Date
-+ death: Date
-+ wiki: String 
-}
 
-class Entity {
-+ name: String
-+ birth: Date
-+ death: Date
-+ wiki: String
-}
-
-class Product {
-+ name: String
-+ birth: Date
-+ death: Date
-+ wiki: String
-}
-
-Product -down-> "*" Person
-Product -down-> "*" Entity
-Entity o-down-> "*" Person
 
 ....
 

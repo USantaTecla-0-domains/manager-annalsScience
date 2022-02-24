@@ -1,0 +1,29 @@
+@@startuml draughtsModeloDominio
+
+class Person {
++ name: String
++ birth: Date
++ death: Date
++ wiki: String 
+}
+
+class Entity {
++ name: String
++ birth: Date
++ death: Date
++ wiki: String
+}
+
+class Product {
++ name: String
++ birth: Date
++ death: Date
++ wiki: String
+}
+
+Product -down-> "*" Person
+Product -down-> "*" Entity
+Entity o-down-> "*" Person
+
+@enduml
+
