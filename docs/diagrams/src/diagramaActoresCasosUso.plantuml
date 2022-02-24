@@ -1,0 +1,69 @@
+@startuml ActoresCasosUso
+
+left to right direction
+
+actor User
+usecase readIndex
+
+package readers {
+actor Reader
+usecase readEntity
+usecase readPerson
+usecase readProduct
+}
+
+package writers {
+actor Writer
+usecase login
+usecase createEntity
+usecase createPerson
+usecase createProduct
+usecase updateEntity
+usecase updatePerson
+usecase updateProduct
+usecase deleteEntity
+usecase deletePerson
+usecase deleteProduct
+usecase editEntity
+usecase editPerson
+usecase editProduct
+usecase logout
+}
+
+User --> readIndex
+
+User <|-down- Reader
+Reader --> readPerson
+Reader --> readEntity
+Reader --> readProduct
+
+readPerson ..> readIndex : <<include>>
+readEntity ..> readIndex : <<include>>
+readProduct ..> readIndex : <<include>>
+
+User <|-down- Writer
+Writer --> login
+Writer --> createEntity
+Writer --> createPerson
+Writer --> createProduct
+Writer --> updateEntity
+Writer --> updatePerson
+Writer --> updateProduct
+Writer --> deleteEntity
+Writer --> deletePerson
+Writer --> deleteProduct
+Writer --> logout
+
+createEntity ..> editPerson : <<include>>
+createPerson ..> editEntity : <<include>>
+createProduct ..> editProduct : <<include>>
+updateEntity ..> editPerson : <<include>>
+updatePerson ..> editEntity : <<include>>
+updateProduct ..> editProduct : <<include>>
+
+editPerson ..> readIndex : <<include>>
+editEntity ..> readIndex : <<include>>
+editProduct ..> readIndex : <<include>>
+
+@enduml
+

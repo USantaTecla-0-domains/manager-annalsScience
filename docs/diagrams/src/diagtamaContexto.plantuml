@@ -1,0 +1,32 @@
+@startuml diagtamaContexto
+
+top to bottom direction
+
+[*] -down-> SHOWED_INDEX : showIndex
+
+SHOWED_INDEX --> SHOWED_INDEX : readEntity
+SHOWED_INDEX --> SHOWED_INDEX : readPerson
+SHOWED_INDEX --> SHOWED_INDEX : readProduct
+SHOWED_INDEX --> SHOWED_INDEX : readIndex
+
+SHOWED_INDEX --> OPENED_INDEX : login
+
+OPENED_INDEX --> OPENED_INDEX : updatePerson
+OPENED_INDEX --> OPENED_INDEX : createPerson
+OPENED_INDEX --> OPENED_INDEX : updateEntity
+OPENED_INDEX --> OPENED_INDEX : createEntity
+OPENED_INDEX --> OPENED_INDEX : updateProduct
+OPENED_INDEX --> OPENED_INDEX : createProduct
+OPENED_INDEX --> OPENED_INDEX : deletePerson
+OPENED_INDEX --> OPENED_INDEX : deleteEntity
+OPENED_INDEX --> OPENED_INDEX : deleteProduct
+
+OPENED_INDEX --> SHOWED_INDEX : logout
+
+
+@enduml 
+
+
+
+
+

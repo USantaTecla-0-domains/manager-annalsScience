@@ -1,4 +1,4 @@
-@@startuml draughtsModeloDominio
+@startuml draughtsModeloDominio
 
 class Person {
 + name: String
