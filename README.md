@@ -38,6 +38,6 @@ Universo Santa Tecla
  * Para las Entidades intersa:
    * Personas que han participado en su desarrollo
 
-[draughtsModeloDominio](./docs/diagrams/out/docs/diagrams/draughtsModeloDominio/draughtsModeloDominio.svg)
+![draughtsModeloDominio](./docs/diagrams/out/docs/diagrams/draughtsModeloDominio/draughtsModeloDominio.svg)
 
 ### vocabulary
