@@ -7,6 +7,7 @@ Universo Santa Tecla
 * [domainModel](#domainModel)  
     * [vocabulary](#vocabulary)   
 * [versions](#versions)
+    * [1.0.publicationLanguage](./docs/2.0.graphics.md)
     * [2.0.graphics](./docs/2.0.graphics.md)
 
 ## domainModel  
