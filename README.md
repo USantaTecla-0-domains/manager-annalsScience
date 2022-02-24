@@ -4,8 +4,7 @@ Universo Santa Tecla
   
 ## index
 
-* [domainModel](#domainModel)  
-    * [vocabulary](#vocabulary)   
+* [domainModel](#domainModel)     
 * [versions](#versions)
     * [1.0.publicationLanguage](./docs/0.0.dataLanguages.md)
     * [2.0.graphics](./docs/2.0.graphics.md)
